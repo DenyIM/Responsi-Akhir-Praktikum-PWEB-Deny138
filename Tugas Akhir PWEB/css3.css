@@ -1,0 +1,51 @@
+body{
+	background-color: #118ab2;
+}
+
+h1{
+  background-color: #ffd166;
+  font-family: "Lucida Console", "Courier New", monospace;;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+h3{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 40px;
+}
+
+h4{
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: white;
+	font-size: 20px;
+}
+
+table{
+	background-color: #06a6a0;
+}
+
+td{
+	font-size: 30px;
+}
+
+.footer {
+	padding: 2px;
+	font-size: 10px;
+	text-align: center;
+	background-color: #ffd166;
+	margin-top: 6%;
+}
+
+
+@media screen and (max-width : 800px) {
+	h3{
+		font-size: 20px;
+		width: 100%;
+		padding: 0;
+	}
+	td{
+		font-size: 15px;
+	}
+}
